@@ -25,7 +25,7 @@ export default {
         streams: [{ 
           name: "CNBR Player", 
           title: `Temporada ${s} - Episódio ${e} (Chat Noir Brasil)`, 
-          externalUrl: `https://cnbr.space/player?temporada=${s}&episodio=${e}` 
+          url: `https://cnbr.space/player?temporada=${s}&episodio=${e}` 
         }]
       }), { headers: cors });
     }
